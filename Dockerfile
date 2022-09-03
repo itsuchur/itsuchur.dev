@@ -6,9 +6,9 @@ RUN apt-get install nginx -y
 
 COPY nginx.conf /etc/nginx/
 
-RUN rm -f nginx.conf
-
 COPY . /var/www/html/
+
+RUN rm -f /var/www/html/nginx.conf
 
 EXPOSE 80/tcp
 
