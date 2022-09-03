@@ -9,3 +9,10 @@
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 370px;
 }
+
+.notfound {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
